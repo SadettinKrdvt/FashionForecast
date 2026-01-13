@@ -6,6 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E997882D2F16743D009A0C1D /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E997882C2F16743D009A0C1D /* Secrets.swift */; };
+		E9C301C62EEB04A7005A4D2A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301AE2EEB04A7005A4D2A /* Services.swift */; };
+		E9C301C82EEB04A7005A4D2A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B12EEB04A7005A4D2A /* Models.swift */; };
+		E9C301C92EEB04A7005A4D2A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B22EEB04A7005A4D2A /* Persistence.swift */; };
+		E9C301CA2EEB04A7005A4D2A /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B42EEB04A7005A4D2A /* AppConfig.swift */; };
+		E9C301CB2EEB04A7005A4D2A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B52EEB04A7005A4D2A /* Extensions.swift */; };
+		E9C301CC2EEB04A7005A4D2A /* StyleDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B62EEB04A7005A4D2A /* StyleDropDelegate.swift */; };
+		E9C301CD2EEB04A7005A4D2A /* AddStyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B82EEB04A7005A4D2A /* AddStyleSheet.swift */; };
+		E9C301CE2EEB04A7005A4D2A /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B92EEB04A7005A4D2A /* HomeViews.swift */; };
+		E9C301CF2EEB04A7005A4D2A /* WeatherEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301BB2EEB04A7005A4D2A /* WeatherEffectsView.swift */; };
+		E9C301D02EEB04A7005A4D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301BD2EEB04A7005A4D2A /* ContentView.swift */; };
+		E9C301D12EEB04A7005A4D2A /* WeatherStyleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301C02EEB04A7005A4D2A /* WeatherStyleViewModel.swift */; };
+		E9C301D22EEB04A7005A4D2A /* Fashion_ForecastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C301C32EEB04A7005A4D2A /* Fashion_ForecastApp.swift */; };
+		E9C301D32EEB04A7005A4D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C301C22EEB04A7005A4D2A /* Assets.xcassets */; };
+		E9C301D42EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9C301B02EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E985AC842EE99F65008A74A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +45,24 @@
 		E985AC712EE99F62008A74A1 /* Fashion Forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fashion Forecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E985AC832EE99F65008A74A1 /* Fashion ForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fashion ForecastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E985AC8D2EE99F65008A74A1 /* Fashion ForecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fashion ForecastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E997882C2F16743D009A0C1D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		E9C301AE2EEB04A7005A4D2A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		E9C301B12EEB04A7005A4D2A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E9C301B22EEB04A7005A4D2A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E9C301B42EEB04A7005A4D2A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		E9C301B52EEB04A7005A4D2A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9C301B62EEB04A7005A4D2A /* StyleDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleDropDelegate.swift; sourceTree = "<group>"; };
+		E9C301B82EEB04A7005A4D2A /* AddStyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStyleSheet.swift; sourceTree = "<group>"; };
+		E9C301B92EEB04A7005A4D2A /* HomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViews.swift; sourceTree = "<group>"; };
+		E9C301BB2EEB04A7005A4D2A /* WeatherEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEffectsView.swift; sourceTree = "<group>"; };
+		E9C301BD2EEB04A7005A4D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9C301C02EEB04A7005A4D2A /* WeatherStyleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherStyleViewModel.swift; sourceTree = "<group>"; };
+		E9C301C22EEB04A7005A4D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9C301C32EEB04A7005A4D2A /* Fashion_ForecastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion_ForecastApp.swift; sourceTree = "<group>"; };
+		E9C301C52EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fashion_Forecast.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E985AC732EE99F62008A74A1 /* Fashion Forecast */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Fashion Forecast";
-			sourceTree = "<group>";
-		};
 		E985AC862EE99F65008A74A1 /* Fashion ForecastTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Fashion ForecastTests";
@@ -75,10 +103,10 @@
 		E985AC682EE99F62008A74A1 = {
 			isa = PBXGroup;
 			children = (
-				E985AC732EE99F62008A74A1 /* Fashion Forecast */,
 				E985AC862EE99F65008A74A1 /* Fashion ForecastTests */,
 				E985AC902EE99F65008A74A1 /* Fashion ForecastUITests */,
 				E985AC722EE99F62008A74A1 /* Products */,
+				E9C301C42EEB04A7005A4D2A /* Fashion Forecast */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +118,92 @@
 				E985AC8D2EE99F65008A74A1 /* Fashion ForecastUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C301AF2EEB04A7005A4D2A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301AE2EEB04A7005A4D2A /* Services.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E9C301B32EEB04A7005A4D2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301B02EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodeld */,
+				E9C301B12EEB04A7005A4D2A /* Models.swift */,
+				E9C301B22EEB04A7005A4D2A /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9C301B72EEB04A7005A4D2A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301B42EEB04A7005A4D2A /* AppConfig.swift */,
+				E9C301B52EEB04A7005A4D2A /* Extensions.swift */,
+				E9C301B62EEB04A7005A4D2A /* StyleDropDelegate.swift */,
+				E997882C2F16743D009A0C1D /* Secrets.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E9C301BA2EEB04A7005A4D2A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301B82EEB04A7005A4D2A /* AddStyleSheet.swift */,
+				E9C301B92EEB04A7005A4D2A /* HomeViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E9C301BC2EEB04A7005A4D2A /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301BB2EEB04A7005A4D2A /* WeatherEffectsView.swift */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		E9C301BE2EEB04A7005A4D2A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301BD2EEB04A7005A4D2A /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E9C301BF2EEB04A7005A4D2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301BE2EEB04A7005A4D2A /* Screens */,
+				E9C301BA2EEB04A7005A4D2A /* Components */,
+				E9C301BC2EEB04A7005A4D2A /* Effects */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9C301C12EEB04A7005A4D2A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301C02EEB04A7005A4D2A /* WeatherStyleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E9C301C42EEB04A7005A4D2A /* Fashion Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				E9C301B32EEB04A7005A4D2A /* Model */,
+				E9C301BF2EEB04A7005A4D2A /* View */,
+				E9C301C12EEB04A7005A4D2A /* ViewModel */,
+				E9C301AF2EEB04A7005A4D2A /* Service */,
+				E9C301B72EEB04A7005A4D2A /* Utils */,
+				E9C301C22EEB04A7005A4D2A /* Assets.xcassets */,
+				E9C301C32EEB04A7005A4D2A /* Fashion_ForecastApp.swift */,
+			);
+			path = "Fashion Forecast";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +220,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				E985AC732EE99F62008A74A1 /* Fashion Forecast */,
 			);
 			name = "Fashion Forecast";
 			packageProductDependencies = (
@@ -212,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C301D32EEB04A7005A4D2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +348,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C301C62EEB04A7005A4D2A /* Services.swift in Sources */,
+				E9C301C82EEB04A7005A4D2A /* Models.swift in Sources */,
+				E9C301C92EEB04A7005A4D2A /* Persistence.swift in Sources */,
+				E9C301CA2EEB04A7005A4D2A /* AppConfig.swift in Sources */,
+				E9C301CB2EEB04A7005A4D2A /* Extensions.swift in Sources */,
+				E9C301CC2EEB04A7005A4D2A /* StyleDropDelegate.swift in Sources */,
+				E9C301CD2EEB04A7005A4D2A /* AddStyleSheet.swift in Sources */,
+				E9C301CE2EEB04A7005A4D2A /* HomeViews.swift in Sources */,
+				E9C301CF2EEB04A7005A4D2A /* WeatherEffectsView.swift in Sources */,
+				E997882D2F16743D009A0C1D /* Secrets.swift in Sources */,
+				E9C301D02EEB04A7005A4D2A /* ContentView.swift in Sources */,
+				E9C301D12EEB04A7005A4D2A /* WeatherStyleViewModel.swift in Sources */,
+				E9C301D22EEB04A7005A4D2A /* Fashion_ForecastApp.swift in Sources */,
+				E9C301D42EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +526,7 @@
 				DEVELOPMENT_TEAM = 35QW4T965V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Hava durumunu göstermek için konumunuza ihtiyacımız var.\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +555,7 @@
 				DEVELOPMENT_TEAM = 35QW4T965V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"Hava durumunu göstermek için konumunuza ihtiyacımız var.\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +686,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9C301B02EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9C301C52EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodel */,
+			);
+			currentVersion = E9C301C52EEB04A7005A4D2A /* Fashion_Forecast.xcdatamodel */;
+			path = Fashion_Forecast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E985AC692EE99F62008A74A1 /* Project object */;
 }
